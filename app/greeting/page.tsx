@@ -25,7 +25,10 @@ export default async function GreetingPage() {
         <h1 className="text-4xl font-semibold tracking-tight text-black dark:text-zinc-50">
           {greeting}
         </h1>
-        <p className="mt-4 text-lg text-zinc-600 dark:text-zinc-400">{today}</p>
+        <p className="mt-4 text-lg text-zinc-600 dark:text-zinc-400">
+          Built during the Building with AI agents course.
+        </p>
+        <p className="mt-2 text-sm text-zinc-500 dark:text-zinc-500">{today}</p>
       </main>
     </div>
   );
